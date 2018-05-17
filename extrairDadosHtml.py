@@ -1,7 +1,7 @@
 import openpyxl # Biblioteca para se trabalhar com excel
 import urllib.request # Biblioteca para fazer requisições
 from bs4 import BeautifulSoup # Biblioteca para extrair dados em HTML
-# O codigo ir extrair os dados da tag td e class 1, 2 e 3 e gravar no arquivo excel
+# O codigo para extrair os dados da tag td e class 1, 2 e 3 e gravar no arquivo excel
 ''' <td class="column-1">Mili</td>
     <td class="column-2">PR</td>
     <td class="column-3">BRASIL</td><td class="column-4">PAVILHÃƒO AZUL</td>
